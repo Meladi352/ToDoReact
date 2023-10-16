@@ -1,16 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito+Sans:wght@400;500;600&family=Nunito:wght@600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@600&family=Raleway:wght@400;500;600;700;900&family=Roboto+Slab:wght@400;600;900&display=swap');
 
-body, html {
-  height: 100%;
+*{
   margin: 0;
-  padding: 0;
-}
-
-body {
   font-family: 'Lato', sans-serif;
   font-family: 'Nunito', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
@@ -18,10 +9,14 @@ body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto Slab', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: rgb(250,176,133);
-  background: linear-gradient(to bottom, rgb(250,176,133) 0%, rgba(2, 2, 20, 1) 30%, rgba(46, 46, 56, 1) 100%);
-  background-size: cover;
 
+}
+
+.background{
+    background-color:transparent;
+    border: 2PX solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px 40px;
 }
